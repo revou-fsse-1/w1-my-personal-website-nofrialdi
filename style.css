@@ -4,6 +4,7 @@
   font-family: sans-serif;
   scroll-behavior: smooth;
 }
+/* header */
 
 a {
   color: inherit;
@@ -66,6 +67,10 @@ header ul li a:hover {
   color: #fff;
 }
 
+/* akhir header */
+
+/* banner */
+
 .banner {
   height: 60vh;
   background-image: url(image/banner2.jpg);
@@ -93,6 +98,10 @@ header ul li a:hover {
   padding: 20px 25px;
   border: 3px solid #fff;
 }
+
+/* akhir banner */
+
+/* about */
 
 section {
   padding: 50px 0;
@@ -132,6 +141,10 @@ button:hover {
   opacity: 0.7;
 }
 
+/* akhir about */
+
+/* footer */
+
 .footer {
   left: 0;
   bottom: 0;
@@ -141,3 +154,5 @@ button:hover {
   padding: 6px 0;
   text-align: center;
 }
+
+/* akhir footer */
