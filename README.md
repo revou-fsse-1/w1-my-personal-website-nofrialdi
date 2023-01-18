@@ -6,7 +6,7 @@ This is the simple personal website of **Nofrialdi** made using HTML, CSS, and J
 
 ## Links/URLs:
 
-- Access Live <https://nofrialdi-personal-website.netlify.app/>
+- Access Live <https://nofri.xyz/>
 
 ## Pages
 
