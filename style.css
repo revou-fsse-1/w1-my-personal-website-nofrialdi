@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -17,6 +18,12 @@ a {
 .medsos ul li {
   display: inline-block;
   color: #fff;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
 }
 
 .container {
@@ -95,6 +102,12 @@ section h2 {
   text-align: center;
   padding: 20px 0;
   color: #40e0d0;
+}
+
+.foto {
+  float: left;
+  width: 370px;
+  margin-right: 40px;
 }
 
 .about p {
