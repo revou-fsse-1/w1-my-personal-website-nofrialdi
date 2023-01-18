@@ -110,12 +110,12 @@ section h2 {
   margin-right: 40px;
 }
 
-.about p {
+#about p {
   color: #666;
   word-spacing: 2px;
   text-indent: 45px;
   text-align: justify;
-  line-height: 25px;
+  line-height: 35px;
 }
 
 button {
