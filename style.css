@@ -20,12 +20,6 @@ a {
   display: inline-block;
   color: #fff;
 }
-header {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background-color: #fff;
-}
 
 .container {
   width: 80%;
@@ -36,6 +30,14 @@ header {
   content: "";
   display: block;
   clear: both;
+}
+
+header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
 }
 
 header h1 {
@@ -61,12 +63,6 @@ header ul li a:hover {
   background-color: #40e0d0;
   color: #fff;
 }
-
-.active {
-  background-color: #40e0d0;
-  color: #fff;
-}
-
 /* akhir header */
 
 /* banner */
@@ -107,15 +103,22 @@ section {
   padding: 50px 0;
 }
 
-.about {
+.heading {
   text-align: center;
-  padding: 20px 0;
+  padding: 25px 0;
   color: #40e0d0;
+}
+
+.border {
+  width: 100px;
+  height: 2px;
+  background: #000;
+  margin: 5px auto;
 }
 
 .foto {
   float: left;
-  width: 370px;
+  width: 300px;
   margin-right: 40px;
 }
 
@@ -143,6 +146,164 @@ button:hover {
 
 /* akhir about */
 
+/* work */
+.heading-work {
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+.experience {
+  background-color: #40e0d0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 10px 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* work */
+
+/* contact */
+.header-contact {
+  text-align: center;
+  color: #40e0d0;
+  font-size: 30px;
+}
+
+.contact-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.contact-form {
+  width: 80%;
+}
+
+.contact-form .row100 {
+  position: relative;
+  width: 100%;
+  float: right;
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+}
+
+.contact-form .row100 .col {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  margin: 30px 0 10px;
+  transition: 0.5s;
+}
+
+.contact-form .row100 .inputBox {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #000;
+}
+
+.contact-form .row100 .inputBox input,
+.contact-form .row100 .inputBox.textarea textarea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 0 10px;
+  z-index: 1;
+  color: #000;
+}
+
+.contact-form .row100 .inputBox .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-size: 18px;
+  padding: 0 10px;
+  display: block;
+  transition: 0.5s;
+  pointer-events: none;
+  color: #aaaaaa;
+}
+
+.contact-form .row100 .inputBox input:focus + .text,
+.contact-form .row100 .inputBox input:valid + .text {
+  top: -35px;
+  left: -10px;
+  color: #999999;
+}
+
+.contact-form .row100 .inputBox .line {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f5f6f8;
+  transition: 0.5s;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.contact-form .row100 .inputBox input:focus ~ .line,
+.contact-form .row100 .inputBox input:valid ~ .line {
+  height: 100%;
+}
+
+.contact-form .row100 .inputBox.textarea {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding: 10px 0;
+}
+
+.contact-form .row100 .inputBox.textarea textarea {
+  height: 100%;
+  resize: none;
+}
+
+.contact-form .row100 .inputBox textarea:focus + .text,
+.contact-form .row100 .inputBox textarea:valid + .text {
+  top: -35px;
+  left: -10px;
+  color: #999999;
+}
+
+.contact-form .row100 .inputBox textarea:focus ~ .line,
+.contact-form .row100 .inputBox textarea:valid ~ .line {
+  height: 100%;
+}
+
+input[type="submit"] {
+  border: none;
+  padding: 7px 35px;
+  cursor: pointer;
+  outline: none;
+  background: #40e0d0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+input[type="submit"]:hover {
+  background-color: #00ffe5;
+  transition: 1s;
+  opacity: 0.5;
+}
+
 /* footer */
 
 .footer {
@@ -156,3 +317,47 @@ button:hover {
 }
 
 /* akhir footer */
+
+/* responsive */
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 90%;
+  }
+  header h1 {
+    text-align: center;
+    float: none;
+  }
+
+  header ul {
+    text-align: center;
+    float: none;
+  }
+  header ul li a {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+  header h1 {
+    text-align: center;
+    float: none;
+  }
+
+  header ul {
+    text-align: center;
+    float: none;
+  }
+  header ul li a {
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+  }
+}
