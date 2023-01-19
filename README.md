@@ -8,11 +8,6 @@ This is the simple personal website of **Nofrialdi** made using HTML, CSS, and J
 
 - Access Live <https://nofri.xyz/>
 
-## Pages
-
-- Home
-- Contact
-
 ## Screenshots
 
 ![Home](assets/home.png)
