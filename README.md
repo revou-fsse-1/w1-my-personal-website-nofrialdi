@@ -19,5 +19,5 @@ This is the simple personal website of **Nofrialdi** made using HTML, CSS, and J
 
 ## Colors
 
-turquese : #40e0d0
-dark grey :#999999
+- turquese : #40e0d0
+- dark grey :#999999
