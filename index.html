@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="web personal">
     <title>Nofrialdi</title>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -17,27 +18,28 @@
     <div class="medsos">
         <div class="container">
             <ul>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-
-
+                <li><a href="https://www.instagram.com/nofrialdii/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com/nofrialdi"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCTtnlLcljpcu6B6gADAik5g"><i
+                            class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/nofrialdi-aldi-b739b4a9/"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
             </ul>
         </div>
     </div>
 
     <header>
         <div class="container">
-            <h1><a href="">Nofrialdi</a></h1>
+            <h1><a href="nofri.xyz">Nofrialdi</a></h1>
             <ul>
-                <li class=""><a href="#home">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </header>
-    <!-- akhir header -->
+    <!-- end header -->
 
     <!-- banner -->
     <section class="banner">
@@ -48,19 +50,105 @@
     <!-- about -->
     <section id="about">
         <div class="container">
-            <h2 class="about">About</h2>
-            <img class="foto" src="image/foto.png" alt="foto">
-            <p>Hi everybody! I want to introduce myself.My name is <strong>Nofrialdi.</strong> I was born in Ambon, but
-                currently I live in Bekasi, West Java. I graduated from STMIK JAYAKARTA in 2013, one of the Informatics
-                Management Colleges in
-                Jakarta. There I majored in Information Systems because I have a career plan to become a Software
-                Engineer.
-                All right, that's all from me. Thank you.</p>
+            <div class="heading">
+                <h2>About</h2>
+                <div class="border"></div>
+            </div>
 
-            <button onclick="sayHello()">Say Hello!</button>
+            <div class="text about">
+                <img class="foto" src="image/foto.png" alt="foto">
+                <p>Hi everybody! I want to introduce myself.My name is <strong>Nofrialdi.</strong> I was born in Ambon,
+                    but
+                    currently I live in Bekasi, West Java. I graduated from STMIK JAYAKARTA in 2013, one of the
+                    Informatics
+                    Management Colleges in
+                    Jakarta. There I majored in Information Systems because I have a career plan to become a Software
+                    Engineer.
+                    All right, that's all from me. Thank you.</p>
+
+                <button onclick="sayHello()">Say Hello!</button>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- end about -->
+
+    <!-- Experience -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="heading-work">
+                <h2>Work Experience</h2>
+                <div class="border">
+
+                </div>
+            </div>
+            <div class="card">
+                <h2><b>CV. Bina Kreasi Informatika</b></h2>
+                <h4>Instruktur Pemograman</h4>
+                <p>Juli 2018 - Nov 2019</p>
+            </div>
+
+            <div class="card">
+                <h2><b>PT. Fedora</b></h2>
+                <h4>Android developer</h4>
+                <p>Sept 2016 - Nov 2017</p>
+            </div>
+
+            <div class="card">
+                <h2><b>Stmik Jayakarta</b></h2>
+                <h4>Asisten Dosen</h4>
+                <p>Juli 2014 - Nov 2016</p>
+            </div>
         </div>
     </section>
-    <!-- akhir about -->
+    <!-- end Experience -->
+    <section id="contact">
+        <div class="heading">
+            <h2>Contact Us</h2>
+            <div class="border"></div>
+        </div>
+
+        <div class="contact-layout">
+            <div class="contact-form" id="contact">
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Name</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Email</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea required="required"></textarea>
+                            <span class="text">Type your message here</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row100">
+                    <div class="col">
+                        <input type="submit" name="Send">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -69,10 +157,12 @@
         <div class="medsos">
             <div class="container">
                 <ul>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/nofrialdii/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/nofrialdi"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCTtnlLcljpcu6B6gADAik5g"><i
+                                class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/nofrialdi-aldi-b739b4a9/"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
 
 
                 </ul>
@@ -81,7 +171,7 @@
 
         <p class="copyright">Copyright &copy; 2023 <i class="fa-solid fa-circle-user"></i> Nofrialdi</p>
     </footer>
-    <!-- akhir footer -->
+    <!-- end footer -->
 
     <script src="main.js"></script>
 
