@@ -11,12 +11,12 @@ a {
   text-decoration: none;
 }
 
-.medsos {
+.social {
   padding: 5px 0;
   background-color: #40e0d0;
 }
 
-.medsos ul li {
+.social ul li {
   display: inline-block;
   color: #fff;
 }
@@ -63,7 +63,7 @@ header ul li a:hover {
   background-color: #40e0d0;
   color: #fff;
 }
-/* akhir header */
+/* end header */
 
 /* banner */
 
@@ -95,7 +95,7 @@ header ul li a:hover {
   border: 3px solid #fff;
 }
 
-/* akhir banner */
+/* end banner */
 
 /* about */
 
@@ -116,7 +116,7 @@ section {
   margin: 5px auto;
 }
 
-.foto {
+.picture {
   float: left;
   width: 300px;
   margin-right: 40px;
@@ -144,7 +144,7 @@ button:hover {
   opacity: 0.7;
 }
 
-/* akhir about */
+/* end about */
 
 /* work */
 .heading-work {
@@ -316,7 +316,7 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-/* akhir footer */
+/* end footer */
 
 /* responsive */
 
