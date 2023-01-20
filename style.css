@@ -204,14 +204,14 @@ button:hover {
   transition: 0.5s;
 }
 
-.contact-form .row100 .inputBox {
+.contact-form .row100 .input-Box {
   position: relative;
   width: 100%;
   height: 40px;
   color: #000;
 }
 
-.contact-form .row100 .inputBox input,
+.contact-form .row100 .input-Box input,
 .contact-form .row100 .inputBox.textarea textarea {
   position: absolute;
   width: 100%;
@@ -226,7 +226,7 @@ button:hover {
   color: #000;
 }
 
-.contact-form .row100 .inputBox .text {
+.contact-form .row100 .input-Box .text {
   position: absolute;
   top: 0;
   left: 0;
@@ -239,14 +239,14 @@ button:hover {
   color: #aaaaaa;
 }
 
-.contact-form .row100 .inputBox input:focus + .text,
-.contact-form .row100 .inputBox input:valid + .text {
+.contact-form .row100 .input-Box input:focus + .text,
+.contact-form .row100 .input-Box input:valid + .text {
   top: -35px;
   left: -10px;
   color: #999999;
 }
 
-.contact-form .row100 .inputBox .line {
+.contact-form .row100 .input-Box .line {
   position: absolute;
   bottom: 0;
   display: block;
@@ -258,12 +258,12 @@ button:hover {
   pointer-events: none;
 }
 
-.contact-form .row100 .inputBox input:focus ~ .line,
-.contact-form .row100 .inputBox input:valid ~ .line {
+.contact-form .row100 .input-Box input:focus ~ .line,
+.contact-form .row100 .input-Box input:valid ~ .line {
   height: 100%;
 }
 
-.contact-form .row100 .inputBox.textarea {
+.contact-form .row100 .input-Box.textarea {
   position: relative;
   width: 100%;
   height: 100px;
